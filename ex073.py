@@ -1,0 +1,15 @@
+def lin():
+    print('-'*15)
+
+times = ('Palmeiras','Flamengo','Internacional','Grêmio','São Paulo','Atlético','Athletico Paranaense','Cruzeiro','Botafogo','Santos','Bahia','Fluminense','Corinthians','Chapecoense','Ceará','Vasco da Gama','America Fc','Sport','Vitória','Paraná')
+print(times)
+lin()
+lin()
+lin()
+print(times[0:5])
+lin()
+print(times[len(times)-4:len(times)])
+lin()
+print(sorted(times))
+lin()
+print(f'Chapecoense está na {times.index("Chapecoense")+1}ª posição.')
