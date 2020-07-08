@@ -16,7 +16,7 @@ while True:
 print('-'*30)
 print('{:<3}|{:<20}|{:<20}|{:<5}'.format('COD','NOME','GOLS','TOTAL'))
 for e,c in enumerate(jogadores):
-    print(f'{e:<3}|{c["nome"]:<20}|{c["jogos"]!s:<15s}|{c["somagol"]:<5}')
+    print(f'{e:<3}|{c["nome"]:<20}|{c["jogos"]!s:<20s}|{c["somagol"]:<5}')
 print('-'*30)
 while True:
     while True:
